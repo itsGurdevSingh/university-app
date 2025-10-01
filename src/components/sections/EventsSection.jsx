@@ -20,11 +20,13 @@ const EventsSection = () => {
             src={prevIcon}
             alt="Previous Slide"
             className="image-swiper-button-prev cursor-pointer"
+            loading="lazy"
           />
           <img
             src={nextIcon}
             alt="Next Slide"
             className="image-swiper-button-next cursor-pointer"
+            loading="lazy"
           />
         </div>
       </div>

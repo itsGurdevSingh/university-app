@@ -49,11 +49,13 @@ const StoriesSection = () => {
             src={prevIcon}
             alt="Previous Slide"
             className="stories-button-prev cursor-pointer"
+            loading="lazy"
           />
           <img
             src={nextIcon}
             alt="Next Slide"
             className="stories-button-next cursor-pointer"
+            loading="lazy"
           />
         </div>
       </div>

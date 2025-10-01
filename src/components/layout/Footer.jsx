@@ -16,7 +16,7 @@ const Footer = () => {
           {/* info */}
           <div className="w-full pr-12 xl:pr-36 md:w-3/5 xl:1/4 mb-8">
             <div className="flex items-center space-x-3">
-              <img src={Logo} alt="Logo" className=" invert h-24 md:h-14 w-auto" />
+              <img src={Logo} alt="Logo" className=" invert h-24 md:h-14 w-auto" loading="lazy"/>
               <span className="sr-only">University</span>
             </div>
             <p className="mt-6 text-md leading-0">
@@ -31,21 +31,21 @@ const Footer = () => {
                 aria-label="Telegram"
                 className="p-3 border border-white/40 rounded-full hover:bg-gray-700"
               >
-                <img src={TelegramIcon} alt="Telegram" className="h-3 w-3" />
+                <img src={TelegramIcon} alt="Telegram" className="h-3 w-3" loading="lazy"/>
               </a>
               <a
                 href="#"
                 aria-label="Facebook"
                 className="p-3 border border-white/40 rounded-full hover:bg-gray-700"
               >
-                <img src={FacebookIcon} alt="Facebook" className="h-3 w-3" />
+                <img src={FacebookIcon} alt="Facebook" className="h-3 w-3" loading="lazy"/>
               </a>
               <a
                 href="#"
                 aria-label="LinkedIn"
                 className="p-3 border border-white/40 rounded-full hover:bg-gray-700"
               >
-                <img src={LinkedinIcon} alt="LinkedIn" className="h-3 w-3" />
+                <img src={LinkedinIcon} alt="LinkedIn" className="h-3 w-3" loading="lazy"/>
               </a>
             </div>
           </div>
@@ -112,7 +112,7 @@ const Footer = () => {
                 href="#"
                 className="mt-4 inline-flex items-center text-lg gap-2 text-gray-300 hover:text-red-400 hover:underline"
               >
-               <img src={Icon} alt="" className="h-8" />
+               <img src={Icon} alt="" className="h-8" loading="lazy"/>
                 See on Map
               </a>
             </div>

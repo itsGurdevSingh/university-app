@@ -8,7 +8,7 @@ const Header = () => {
     <div className='h-18 w-full px-8 py-8 flex items-center justify-between bg-white'>
         {/* logo */}
         <div>
-            <img src={logo} alt="logo" className='h-full w-full'/>
+            <img src={logo} alt="logo" className='h-full w-full' loading="lazy"/>
         </div>
 
         {/* nav items */}
@@ -25,12 +25,12 @@ const Header = () => {
 
             {/*search buttons */}
             <div>
-                <img src={SearchIcon} alt="search" className='h-full' />
+                <img src={SearchIcon} alt="search" className='h-full' loading="lazy"/>
             </div>
 
             {/* menu button */}
             <div className='bg-black p-1 rounded-md '>
-                <img src={MenuIcon} alt="menu" className=' h-full' />
+                <img src={MenuIcon} alt="menu" className=' h-full' loading="lazy"/>
             </div>
 
         </div>

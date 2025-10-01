@@ -1,7 +1,7 @@
 import React from "react";
-import NextArrow from "../../assets/svgs/arrow-right-circle.svg";
 import programs from "../../data/programs";
 import ArrowButton from "../ui/arrowButton";
+import Program from "../ui/Program";
 
 const ProgramsSection = () => {
   return (
@@ -25,10 +25,7 @@ const ProgramsSection = () => {
       <div className="py-12">
         <ul className="w-full flex flex-wrap justify-between">
           {programs.map((prog) => (
-            <li className="border-b border-gray-500/40 transition-all duration-500 ease-in-out hover:border-gray-800 py-4 pt-8 px-1 text-2xl font-medium w-full md:w-[48%] xl:w-[30%] flex justify-between items-center">
-              <p>{prog}</p>
-              <img src={NextArrow} alt="" className="h-6" />
-            </li>
+            <Program program={prog} />
           ))}
         </ul>
       </div>

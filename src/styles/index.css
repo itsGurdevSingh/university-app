@@ -27,3 +27,17 @@ body {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* required css for lenis*/
+html.lenis {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+

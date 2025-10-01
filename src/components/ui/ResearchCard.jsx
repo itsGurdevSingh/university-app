@@ -18,7 +18,7 @@ const ResearchCard = ({ research }) => {
       </div>
 
       <div>
-        <img src={NextArrow} alt="" className="h-7 absolute right-8 bottom-8" />
+        <img src={NextArrow} alt="arrow" className="h-7 absolute right-8 bottom-8" loading="lazy"/>
       </div>
     </div>
   );

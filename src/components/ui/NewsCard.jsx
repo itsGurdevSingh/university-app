@@ -11,9 +11,6 @@ const NewsCard = ({newsData}) => {
 
          <HoverImage src={image} alt="event-image" className={isPrimary? 'w-full':'w-full md:w-3/5 object-cover'} />
 
-        
-        {/* <img src={image} alt="" className={isPrimary? 'w-full':'w-full md:w-2/5 object-cover'}/> */}
-
         <div className='py-6 felx flex-col space-y-4 items-center md:items-start'>
             <h3 className='text-xl font-semibold pr-12'>
                 {headline}

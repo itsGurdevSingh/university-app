@@ -22,11 +22,13 @@ const ResearchSection = () => {
             src={prevIcon}
             alt="Previous Slide"
             className="research-button-prev cursor-pointer"
+            loading="lazy"
           />
           <img
             src={nextIcon}
             alt="Next Slide"
             className="research-button-next cursor-pointer"
+            loading="lazy"
           />
         </div>
       </div>
@@ -72,11 +74,13 @@ const ResearchSection = () => {
             src={prevIcon}
             alt="Previous Slide"
             className="research-button-prev cursor-pointer"
+            loading="lazy"
           />
           <img
             src={nextIcon}
             alt="Next Slide"
             className="research-button-next cursor-pointer"
+            loading="lazy"
           />
         </div>
       </div>

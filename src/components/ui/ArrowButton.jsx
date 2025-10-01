@@ -6,7 +6,7 @@ const ArrowButton = ({msg}) => {
   return (
     <div className="flex gap-2 text-md items-center ">
     <p>{msg}</p>
-      <img src={NextArrow} alt="" className="h-6" />
+      <img src={NextArrow} alt="" className="h-6" loading="lazy"/>
     </div>
   );
 };
