@@ -1,7 +1,7 @@
 import React from "react";
 import NewsCard from "../ui/NewsCard";
 import newsData from "../../data/newsData.js";
-import ArrowButton from "../ui/arrowButton.jsx";
+import ArrowButton from "../ui/ArrowButton.jsx";
 
 const NewsSection = () => {
   return (

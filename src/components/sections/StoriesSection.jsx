@@ -1,5 +1,5 @@
 import React from "react";
-import Stories from "../ui/stroies.jsx"; // Corrected a potential typo in the filename
+import Stories from "../ui/Stroies.jsx";
 import storiesData from "../../data/storiesData.js";
 
 import { Swiper, SwiperSlide } from "swiper/react";
