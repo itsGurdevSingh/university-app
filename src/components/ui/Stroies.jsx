@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "../ui/Profile";
 import Reating from "../ui/Reating.jsx";
 
-const stroies = ({data}) => {
+const stroies = ({ data }) => {
   return (
     <div className="relative w-full flex flex-col gap-12 lg:gap-28">
       <div className="flex gap-6">
