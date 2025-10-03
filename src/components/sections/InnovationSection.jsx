@@ -1,6 +1,6 @@
 import React from "react";
 import inovation from "../../assets/images/programs_1.png";
-import ArrowButton from "../ui/arrowButton";
+import ArrowButton from "../ui/ArrowButton";
 
 const InnovationSection = () => {
   return (

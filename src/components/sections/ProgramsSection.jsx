@@ -1,6 +1,6 @@
 import React from "react";
 import programs from "../../data/programs";
-import ArrowButton from "../ui/arrowButton";
+import ArrowButton from "../ui/ArrowButton";
 import Program from "../ui/Program";
 
 const ProgramsSection = () => {

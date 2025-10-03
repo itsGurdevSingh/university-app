@@ -16,7 +16,9 @@ const StoriesSection = () => {
     <div className="py-20 px-8 md:py-24 lg:px-32 ">
       {/* heading */}
       <div className="flex flex-col md:flex-row gap-4 justify-center mb-8 items-center lg:absolute z-10">
-        <h2 className="text-5xl xl:text-6xl font-kaisei bg-white lg:w-1/4 lg:h-44 ">Stories.</h2>
+        <h2 className="text-5xl xl:text-6xl font-kaisei bg-white lg:w-1/4 lg:h-44 ">
+          Stories.
+        </h2>
       </div>
 
       {/* 1. Create a wrapper div with position: relative */}

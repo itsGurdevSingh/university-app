@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../ui/profile";
+import Profile from "../ui/Profile";
 import Reating from "../ui/Reating.jsx";
 
 const stroies = ({data}) => {

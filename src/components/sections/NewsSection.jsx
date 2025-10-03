@@ -9,7 +9,7 @@ const NewsSection = () => {
       {/* heading */}
       <div className="flex flex-col md:flex-row gap-4 justify-between items-center">
         <h2 className="text-5xl xl:text-6xl font-kaisei">Campus News.</h2>
-        <ArrowButton msg={'See All News'} />
+        <ArrowButton msg={"See All News"} />
       </div>
 
       <div className="flex flex-col xl:flex-row gap-6 w-full min-h-[90vh] py-16">
