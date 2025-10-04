@@ -80,29 +80,32 @@ const HeroSection = () => {
         </motion.h1>
 
         {/* Second animated child: The bottom content block */}
-        <motion.div
-          className="max-xl:top-1/2 max-xl:left-1/2 -translate-x-1/2 xl:translate-x-0 xl:translate-y-0 w-full md:w-[40rem]  px-6 xl:px-2 text-center xl:text-left  xl:max-w-[30rem] text-white absolute xl:bottom-16 xl:right-28 leading-relaxed flex flex-col gap-8"
-          variants={bottomBlockVariants}
-        >
-          <p>
-            We are committed to empowering students with world-class education
-            cutting-edge research opportunities, and a vibran inclusive
-            communit Whether you're here.
-          </p>
 
-          <motion.button
-            className="bg-[#151515] px-6 py-3 flex gap-1 w-fit mx-auto xl:mx-0 duration-500 ease-in-out hover:bg-red-600 transition-colors"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
+        {/* Wrapped bottom animated block in a regular div; positioning classes moved here per instruction */}
+        <div className="absolute max-xl:top-1/2 max-xl:left-1/2 max-xl:-translate-x-1/2 translate-y-6 xl:translate-y-0 xl:bottom-16 xl:right-28 w-full flex justify-center xl:justify-end">
+          <motion.div
+            className="w-[90%] max-w-md md:max-w-lg xl:max-w-[30rem] px-6 xl:px-2 text-center xl:text-left text-white leading-relaxed flex flex-col gap-8"
+            variants={bottomBlockVariants}
           >
-            Get Started
-            <img src={ButtonArrow} alt="arrow" loading="lazy" />
-          </motion.button>
-        </motion.div>
+            <p className="mx-auto xl:mx-0">
+              We are committed to empowering students with world-class education
+              cutting-edge research opportunities, and a vibran inclusive
+              communit Whether you're here.
+            </p>
+
+            <motion.button
+              className="bg-[#151515] px-6 py-3 flex gap-1 w-fit mx-auto xl:mx-0 duration-500 ease-in-out hover:bg-red-600 transition-colors"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              Get Started
+              <img src={ButtonArrow} alt="arrow" loading="lazy" />
+            </motion.button>
+          </motion.div>
+        </div>
       </motion.div>
     </div>
   );
 };
 
 export default HeroSection;
-
